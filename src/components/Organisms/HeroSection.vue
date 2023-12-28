@@ -12,7 +12,7 @@ export default {
 </script>
 
 <template>
-    <div class="container grid grid-cols-2 mt-20"> 
+    <div class="container grid grid-cols-2 my-20 gap-20"> 
         <div class="col-span-1">
             <div class="flex flex-col  gap-6">
                 <div class="text-7xl font-bold text-secondaryColor">
@@ -24,7 +24,14 @@ export default {
             </div>
     <JobSelection/>
         </div>
-        <div class="col-span-1">
+        <div class="col-span-1 p-16  bg-primaryColor rounded-tl-[7rem] rounded-br-[7rem]">
+         <div class="flex gap-3 items-center  p-5 bg-white rounded-xl">
+        <img  src="@/assets/world.svg" alt="logo" className="w-20" />
+        <div>
+            <h1 class="text-3xl font-bold">99+</h1>
+            <p>Job For Countries</p>
+        </div>
+    </div>
 
          </div>
     </div>
