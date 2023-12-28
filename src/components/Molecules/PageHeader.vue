@@ -19,9 +19,6 @@ export default {
             <router-link to="/" class="hover:border-b-4 p-2 border-primaryColor">Login</router-link>
             </div>
             <PageButton/>
-             
         </div>
-
-     
     </div>
 </template>
