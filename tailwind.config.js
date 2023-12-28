@@ -4,13 +4,13 @@ export default {
   purge: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
   theme: {
     container: {
-      padding: '1rem',
+      padding: '2rem',
       center: true
     },
     extend: {
       colors: {
         primaryColor: '#17154B',
-        secondaryColor: '#1A1A1A'
+        secondaryColor: '#262730'
       }
     }
   },
