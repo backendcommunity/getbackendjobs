@@ -1,0 +1,7 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44" fill="none">
+  <rect x="1" y="1" width="42" height="32" rx="4" stroke="#17154B" stroke-width="2"/>
+  <rect x="10" y="39" width="24" height="4" rx="1" stroke="#17154B" stroke-width="2"/>
+  <rect x="18" y="33" width="8" height="6" rx="1" fill="#17154B"/>
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M6 7C6 6.44772 6.44772 6 7 6H37C37.5523 6 38 6.44772 38 7V27C38 27.5523 37.5523 28 37 28H7C6.44772 28 6 27.5523 6 27V7Z" fill="#F8E8FF" stroke="#17154B" stroke-width="2" stroke-linejoin="round"/>
+</svg>

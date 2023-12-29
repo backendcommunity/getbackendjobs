@@ -3,6 +3,8 @@
 // import PageHeaderVue from "./components/Molecules/PageHeader.vue";
 import  HeroSectionVue from "./components/Organisms/HeroSection.vue";
 import PageHeaderVue from "./components/Molecules/PageHeader.vue"
+import  TailoredBackendVue from "./components/Organisms/TailoredBackend.vue";
+import  OneStepVue from "./components/Organisms/OneStep.vue";
 </script>
 
 <template>
@@ -11,5 +13,7 @@ import PageHeaderVue from "./components/Molecules/PageHeader.vue"
   </header>
   <RouterView />
   <HeroSectionVue/>
+  <TailoredBackendVue/>
+  <OneStepVue/>
 </template>
 
