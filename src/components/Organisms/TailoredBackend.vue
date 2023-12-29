@@ -1,8 +1,10 @@
 <script lang="ts">
 
 import JobBox from '../Atoms/JobBox.vue'
+
+
 export default {
-    components: { JobBox },
+    components: { JobBox, },
     name: 'TailoredBackend'
 }
 </script>
@@ -16,6 +18,7 @@ export default {
                     finest
                 </p>
             </div>
+
         </div>
 
         <div class="grid grid-cols-4 px-24 py-16  gap-10">
@@ -29,5 +32,6 @@ export default {
             <JobBox image='@/assets/icon4.svg' text1="Engineering and " text2="Technology" numer="400k" />
             <JobBox image='@/assets/icon4.svg' text1="Engineering and " text2="Technology" numer="400k" />
         </div>
+
     </div>
 </template>
