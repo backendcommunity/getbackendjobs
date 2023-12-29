@@ -3,6 +3,7 @@
 import JobBox from '../Atoms/JobBox.vue'
 
 
+
 export default {
     components: { JobBox, },
     name: 'TailoredBackend'
