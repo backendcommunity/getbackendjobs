@@ -20,7 +20,7 @@ export default {
                     <h1 class=" font-bold">Company</h1>
                     <div class="flex flex-col gap-4 text-gray-400">
                         <p>About</p>
-                        <p>Community Support</p>
+                        <p>Community Supports</p>
                         <p>Events</p>
                         <p>Career</p>
                     </div>
