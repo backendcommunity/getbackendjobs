@@ -15,7 +15,7 @@ export default {
     <div class="container grid md:grid-cols-2 md:my-20 my-16 md:gap-10 lg:gap-44">
         <div class="col-span-1">
             <div class="flex flex-col  gap-6">
-                <div class="lg:text-7xl text-5xl font-bold text-secondaryColor">
+                <div class="lg:text-7xl text-4xl font-bold text-secondaryColor">
                     <h1>Unlock Your </h1>
                     <h1>Backend </h1>
                     <h1>Future</h1>

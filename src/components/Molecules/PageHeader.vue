@@ -20,7 +20,7 @@ export default {
 </script>
 
 <template>
-    <div class="container py-5 flex justify-between items-center overflow-hidden  ">
+    <div class="container py-5 flex justify-between items-center  w-full overflow-hidden  ">
         <img src="@/assets/masteringlogo.png" alt="logo" class="md:w-64 w-52" />
 
         <!-- Hamburger Icon for Mobile -->
@@ -33,12 +33,12 @@ export default {
         </div>
 
         <!-- Navigation Links (Responsive) -->
-        <div class="hidden lg:flex justify-center items-center gap-10">
-            <div class="flex gap-10 text-xl items-center text-secondaryColor">
-                <router-link to="/" class="hover:border-b-4 border-primaryColor p-2">Home</router-link>
-                <router-link to="/career" class="hover:border-b-4 p-2 border-primaryColor">Career</router-link>
-                <router-link to="/faq" class="hover:border-b-4 p-2 border-primaryColor">Faq</router-link>
-                <router-link to="/login" class="hover:border-b-4 p-2 border-primaryColor">Login</router-link>
+        <div class="hidden lg:flex justify-center items-center gap-10 ">
+            <div class="flex gap-10 text-xl items-center w- text-secondaryColor  ">
+                <router-link to="/" class="hover:border-b-4  border-primaryColor ">Home</router-link>
+                <router-link to="/career" class="hover:border-b-4 p- border-primaryColor">Career</router-link>
+                <router-link to="/faq" class="hover:border-b-4 p- border-primaryColor">Faq</router-link>
+                <router-link to="/login" class="hover:border-b-4 p- border-primaryColor">Login</router-link>
             </div>
             <PageButton />
         </div>
@@ -46,13 +46,13 @@ export default {
         <!-- Mobile Menu (Dynamic) -->
         <div v-if="isMobileMenuOpen" class="lg:hidden  text-2xl top-0 left-0 body w-full h-[9900px] bg-white fixed">
             <!-- Mobile Navigation Links -->
-            <div class="flex flex-col  items-center py-10 gap-10">
+            <div class="flex flex-col  items-center py-10  gap-10">
                 <div class="flex flex-col gap-3">
 
-                    <router-link to="/" class="hover:border-b-4 border-primaryColor p-2">Home</router-link>
-                    <router-link to="/career" class="hover:border-b-4 p-2 border-primaryColor">Career</router-link>
-                    <router-link to="/faq" class="hover:border-b-4 p-2 border-primaryColor">Faq</router-link>
-                    <router-link to="/login" class="hover:border-b-4 p-2 border-primaryColor">Login</router-link>
+                    <router-link to="/" class="hover:border-b-4   border-primaryColor p-">Home</router-link>
+                    <router-link to="/career" class="hover:border-b-4 p- border-primaryColor">Career</router-link>
+                    <router-link to="/faq" class="hover:border-b-4 p border-primaryColor">Faq</router-link>
+                    <router-link to="/login" class="hover:border-b-4 p border-primaryColor">Login</router-link>
                 </div>
                 <PageButton />
 
