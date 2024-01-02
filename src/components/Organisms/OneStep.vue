@@ -7,11 +7,10 @@ export default {
 
 
 <template>
-    <div class="container md:grid md:grid-cols-2 lg:gap-28  gap-10 pt-10 mb-20 flex">
-        <div class="col-span-1 bg-gray-800 h-33">
-            <div class="">
-
-            </div>
+    <div class="container md:grid md:grid-cols-2 lg:gap-28  gap-10 pt-10 mb-20  items-center">
+        <div class="col-span-1 flex flex-col gap-10 pb-7">
+            <div class="bg-slate-400 h-64 rounded-xl"></div>
+            <div class="bg-slate-400 h-64 rounded-xl"></div>
         </div>
 
         <div class="col-span-1 flex flex-col gap-10">

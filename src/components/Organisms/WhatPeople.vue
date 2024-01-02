@@ -5,13 +5,14 @@ export default {
 </script>
 
 <template>
-    <div class="p-20 bg-gray-100 flex flex-col items-center justify-center px-28 gap-20">
+    <div class="md:p-20 bg-gray-100 flex flex-col items-center justify-center p-3 pb-20 md:px-28 md:gap-20 gap-5">
         <div>
-            <h1 class="text-5xl font-bold">What people are saying</h1>
+            <h1 class="md:text-5xl text-3xl font-bold text-center">What people are saying</h1>
 
         </div>
-        <div class="p-20  bg-white flex flex-col gap-20 items-center">
-            <h1 class="text-3xl text-center">Lorem ipsum dolor sit amet consectetur. Sagittis eu tellus turpis diam accumsan
+        <div class="md:p-20 p-4 bg-white flex flex-col md:gap-20 gap-9 items-center">
+            <h1 class="md:text-3xl text-xl text-center">Lorem ipsum dolor sit amet consectetur. Sagittis eu tellus turpis
+                diam accumsan
                 ut
                 condimentum. Eget
                 dignissim dictum arcu eget cras sit vulputate. Ante enim non aliquet nibh senectus adipiscing nunc. Ut.</h1>

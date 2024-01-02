@@ -5,12 +5,12 @@ export default {
 </script>
 
 <template>
-    <div class="p-20">
+    <div class="md:p-20 p-4">
 
-        <div class="grid grid-cols-2">
+        <div class="grid lg:grid-cols-2 gap-20 lg:gap-0">
             <div class="col-span-1 flex flex-col gap-4">
                 <img src="@/assets/masteringlogo.png" class="w-64">
-                <p class="text- w-96">Sometimes features require a short description. This can be detailed description or
+                <p class="text- md:w-96">Sometimes features require a short description. This can be detailed description or
                     just
                     a short text.
                 </p>
