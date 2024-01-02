@@ -4,8 +4,11 @@ export default {
   purge: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
   theme: {
     container: {
-      padding: '2rem',
-      center: true
+      center: true,
+      padding: {
+        DEFAULT: '1rem', // Padding for mobile (default)
+        lg: '2rem' // Padding for desktop (lg)
+      }
     },
     extend: {
       colors: {
