@@ -44,20 +44,23 @@ export default {
         </div>
 
         <!-- Mobile Menu (Dynamic) -->
-        <div v-if="isMobileMenuOpen" class="lg:hidden  top-0 left-0 body w-full h-[990px] bg-white fixed">
+        <div v-if="isMobileMenuOpen" class="lg:hidden  text-2xl top-0 left-0 body w-full h-[9900px] bg-white fixed">
             <!-- Mobile Navigation Links -->
-            <div class="flex flex-col items-center py-10">
-                <router-link to="/" class="hover:border-b-4 border-primaryColor p-2">Home</router-link>
-                <router-link to="/career" class="hover:border-b-4 p-2 border-primaryColor">Career</router-link>
-                <router-link to="/faq" class="hover:border-b-4 p-2 border-primaryColor">Faq</router-link>
-                <router-link to="/login" class="hover:border-b-4 p-2 border-primaryColor">Login</router-link>
+            <div class="flex flex-col  items-center py-10 gap-10">
+                <div class="flex flex-col gap-3">
+
+                    <router-link to="/" class="hover:border-b-4 border-primaryColor p-2">Home</router-link>
+                    <router-link to="/career" class="hover:border-b-4 p-2 border-primaryColor">Career</router-link>
+                    <router-link to="/faq" class="hover:border-b-4 p-2 border-primaryColor">Faq</router-link>
+                    <router-link to="/login" class="hover:border-b-4 p-2 border-primaryColor">Login</router-link>
+                </div>
                 <PageButton />
 
             </div>
             <!-- Close Button for Mobile Menu -->
             <div class="cursor-pointer text-secondaryColor absolute top-5 right-5" @click="toggleMobileMenu">
                 <!-- You can use any icon library or custom SVG for the close icon -->
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 24 24">
+                <svg xmlns="http://www.w3.org/2000/svg" height="25" width="" viewBox="0 0 24 24">
                     <path
                         d="M3.71 3.71a1.02 1.02 0 0 1 1.42 0L12 10.59l7.88-7.88a1.02 1.02 0 0 1 1.42 1.42L13.41 12l7.88 7.88a1.02 1.02 0 0 1-1.42 1.42L12 13.41l-7.88 7.88a1.02 1.02 0 0 1-1.42-1.42L10.59 12 2.71 4.12a1.02 1.02 0 0 1 0-1.41z" />
                 </svg>
