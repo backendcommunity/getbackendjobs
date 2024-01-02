@@ -20,13 +20,13 @@ export default {
 </script>
 
 <template>
-    <div class="container py-5 flex justify-between items-center">
-        <img src="@/assets/masteringlogo.png" alt="logo" class="md:w-64 w-40" />
+    <div class="container py-5 flex justify-between items-center overflow-hidden  ">
+        <img src="@/assets/masteringlogo.png" alt="logo" class="md:w-64 w-52" />
 
         <!-- Hamburger Icon for Mobile -->
         <div class="lg:hidden cursor-pointer" @click="toggleMobileMenu">
             <!-- You can use any icon library or custom SVG for the hamburger icon -->
-            <svg xmlns="http://www.w3.org/2000/svg" height="16" width="14" viewBox="0 0 448 512">
+            <svg xmlns="http://www.w3.org/2000/svg" height="25" width="" viewBox="0 0 448 512">
                 <path
                     d="M16 132h416c8.8 0 16-7.2 16-16V76c0-8.8-7.2-16-16-16H16C7.2 60 0 67.2 0 76v40c0 8.8 7.2 16 16 16zm0 160h416c8.8 0 16-7.2 16-16v-40c0-8.8-7.2-16-16-16H16c-8.8 0-16 7.2-16 16v40c0 8.8 7.2 16 16 16zm0 160h416c8.8 0 16-7.2 16-16v-40c0-8.8-7.2-16-16-16H16c-8.8 0-16 7.2-16 16v40c0 8.8 7.2 16 16 16z" />
             </svg>
@@ -44,7 +44,7 @@ export default {
         </div>
 
         <!-- Mobile Menu (Dynamic) -->
-        <div v-if="isMobileMenuOpen" class="lg:hidden absolute top-0 left-0 w-full h-[9999px] bg-white">
+        <div v-if="isMobileMenuOpen" class="lg:hidden  top-0 left-0 body w-full h-[990px] bg-white fixed">
             <!-- Mobile Navigation Links -->
             <div class="flex flex-col items-center py-10">
                 <router-link to="/" class="hover:border-b-4 border-primaryColor p-2">Home</router-link>
